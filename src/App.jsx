@@ -6,6 +6,8 @@ import Usecontext from './hooks/Usecontext'
 import { DataProvider } from './contextAPI/Provider'
 import Updater from './contextAPI/Updater'
 import Usereducer from './hooks/Usereducer'
+import Useref from './hooks/Useref'
+import Fetch from './customHook/Fetch'
 // for the UseContext
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
           <Updater/>
       </DataProvider> */}
       {/* <Usereducer/> */}
+      {/* <Useref/> */}
+      <Fetch/>
     </div>
   )
 }
